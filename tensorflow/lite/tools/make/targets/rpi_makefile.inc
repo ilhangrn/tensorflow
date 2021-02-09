@@ -53,6 +53,7 @@ ifeq ($(TARGET),rpi)
        
   LIBS := \
     -lstdc++ \
+    -latomic \
     -lpthread \
     -lm \
     -ldl
